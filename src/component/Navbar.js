@@ -6,7 +6,7 @@ class Navbar extends Component{
         return(
             <div className="container">
                 <div className="logo">
-                    <img src="https://s4.bukalapak.com/img/457590103/s-400-400/41KTjPYe3yL.jpg" alt="test"/>
+                    <img className="rotating" src="https://s4.bukalapak.com/img/457590103/s-400-400/41KTjPYe3yL.jpg" alt="test"/>
                 </div>
                 <div className="bg-color">
                     <ul className="ul">

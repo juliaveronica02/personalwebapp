@@ -16,6 +16,7 @@
     border: 50% solid #000000 !important;
     width: 45px;
     border-radius: 50%;
+    transform: rotate(-180deg)
 }
 .container ul {
     margin-left: 2em;
@@ -39,4 +40,39 @@
   }
   .active{
     background-color: #666;
+  }
+  .bg{
+      background-color: thistle;
+      overflow: auto;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+  }
+  .profile{
+      width: 450px;
+      background: rgba(0, 0, 0, 0.4);
+      margin-top: 2%;
+      color: white;
+      border-radius: 10px;
+      padding-bottom: 1em;
+      margin: auto;
+      margin-top: 1em;
+      margin-bottom: 1em;
+  }
+  .profile img{
+    margin-top: 1em;
+    border: 50% solid #000000 !important;
+    width: 50%;
+    border-radius: 50%;
+  }
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .rotating {
+    animation: rotating 2s linear infinite;
   }
