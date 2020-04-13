@@ -1,12 +1,12 @@
 //rcc
 import React, {Component} from 'react'
-
+import profile from '../component/profile.png'
 class Content extends Component {
     render() {
         return (
             <div className="bg">
                 <div className="profile">
-                <img src="https://s4.bukalapak.com/img/457590103/s-400-400/41KTjPYe3yL.jpg" alt="test"/>
+                <img src={profile} alt="test"/>
                     <h2  style={{color: "white"}}>Julia Veronica</h2>
                     <hr style={{width:"60%"}}/>
                     <h4>Tanjung Pinang</h4>

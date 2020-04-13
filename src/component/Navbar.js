@@ -10,10 +10,10 @@ class Navbar extends Component{
                 </div>
                 <div className="bg-color">
                     <ul className="ul">
-                        <li className="li"><a className="active" href="#home">Home</a></li>
-                        <li className="li"><a href="#about">About</a></li>
-                        <li className="li"><a href="">Portofolio</a></li>
-                        <li className="li"><a href="">Contact</a></li>
+                        <li className="li"> <a className="active" href="#"> Home </a> </li>
+                        <li className="li"> <a href="#"> About </a> </li>
+                        <li className="li"> <a href="#"> Portofolio </a> </li>
+                        <li className="li"> <a href="#"> Contact </a> </li>
                     </ul>
                 </div>
             </div>
